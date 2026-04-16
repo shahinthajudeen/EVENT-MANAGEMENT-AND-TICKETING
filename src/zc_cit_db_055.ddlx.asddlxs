@@ -1,0 +1,167 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'EventUUID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'EventUUID'
+annotate view ZC_CIT_DB_055 with
+{
+  @EndUserText.label: 'EventUUID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'EventUUID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'EventUUID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  EventUUID;
+  
+  @EndUserText.label: 'EventName'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'EventName'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'EventName'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  EventName;
+  
+  @EndUserText.label: 'EventDate'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'EventDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'EventDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  EventDate;
+  
+  @EndUserText.label: 'Location'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Location'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Location'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Location;
+  
+  @EndUserText.label: 'TotalCapacity'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'TotalCapacity'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'TotalCapacity'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  TotalCapacity;
+  
+  @EndUserText.label: 'Status'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Status'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Status'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Status;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LocalCreatedBy;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  LocalCreatedAt;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 120 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  _BaseEntity;
+}
